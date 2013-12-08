@@ -21,6 +21,6 @@
     "cookie": "*",
     "connect": "*",
     "jade": "*",
-    "markdown": "*",
-  },
+    "markdown": "*"
+  }
 }
