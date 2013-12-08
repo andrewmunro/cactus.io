@@ -22,12 +22,5 @@
     "connect": "*",
     "jade": "*",
     "markdown": "*",
-    "requirejs-middleware": "*"
   },
-  "volo": {
-    "dependencies": {
-      "coffee-script": "github:jashkenas/coffee-script/1.6.3",
-      "cs": "github:requirejs/require-cs/0.4.4"
-    }
-  }
 }
