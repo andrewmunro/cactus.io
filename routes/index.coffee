@@ -14,14 +14,12 @@ module.exports = (app) ->
 	app.get '/private', checkAuth, pages.privatepage
 
 	app.get '/', pages.index
-
+	
 	app.get '/:controller', pages.controller
 
 	app.get '/:controller/:method', pages.controller
 
 	app.get '/:controller/:method/:id', pages.controller
-
-	app.get '/status', api.status
 
 	app.get '/cactus.js', (req, res, next) ->
 		console.log process.cwd()
