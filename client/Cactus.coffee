@@ -1,4 +1,6 @@
-define ["pixi"], (PIXI)->
+define ["cactus.gamemanager", "pixi"], (GameManager, PIXI)->
+
+	gamemanager = new GameManager()
 
 	width = 1024
 	height = 678

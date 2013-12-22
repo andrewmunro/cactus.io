@@ -20,7 +20,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/Dropbox\/Projects\/cactus.io\/game\/assets\/Futuristic Tiles Resource Pack\/Tilesets\/Futuristic_A5.png",
+         "image":"img/Futuristic_A5.png",
          "imageheight":512,
          "imagewidth":256,
          "margin":0,
